@@ -15,7 +15,7 @@ carpentry: "incubator"
 title: "Introduction to Using the Shell in a High-Performance Computing Context"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2023-11-17
+created: 2024-01-18
 
 # Comma-separated list of keywords for the lesson
 keywords: "software, data, lesson, The Carpentries, HPC, EPCC"
@@ -28,7 +28,7 @@ life_cycle: "beta"
 license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: "https://github.com/EPCCed/2023-06-28-uoe-hpcintro"
+source: "https://github.com/EPCCed/2024-01-18-uoe-hpcintro"
 
 # Default branch of your lesson
 branch: "main"

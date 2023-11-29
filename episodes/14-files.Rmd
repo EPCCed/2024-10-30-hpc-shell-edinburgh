@@ -269,7 +269,7 @@ programming interactions with remote resources over a wide variety of network
 protocols. If you have `curl` but not `wget`, then try this command instead:
 
 ```bash
-$ curl -O site.urlsite.baseurl/files/bash-lesson.tar.gz
+$ curl -O `r config$baseurl`/files/bash-lesson.tar.gz
 ```
 
 For very large downloads, you might consider using
@@ -278,7 +278,7 @@ file from multiple mirrors. You have to install it separately, but if you
 have it, try this to get it faster than your neighbors:
 
 ```bash
-$ aria2c site.urlsite.baseurl/files/bash-lesson.tar.gz
+$ aria2c `r config$baseurl`/files/bash-lesson.tar.gz
 ```
 
 :::
