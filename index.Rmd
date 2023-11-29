@@ -18,7 +18,7 @@ To begin this lesson you must have completed the following
    packages installed (listed in the Setup section below). 
    They are also required to abide by the ARCHER2 Training Code of Conduct.
  * Attendees should be familiar with using the bash shell. This is covered in the introduction to the shell HPC course.
- * Complete the software/system [setup](#setup) including the connection to Archer2 via [SSH](#setup-an-ssh-client).
+ * Complete the software/system [setup](#learners/setup) including the connection to Archer2 via [SSH](#setup-an-ssh-client).
 
 :::
 

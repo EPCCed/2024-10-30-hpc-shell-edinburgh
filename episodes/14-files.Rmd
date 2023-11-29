@@ -7,7 +7,6 @@ exercises: 15
 ```{r load_config, include=FALSE}
 library(yaml)
 config <- yaml.load_file("lesson_config.yaml")
-snippets <- paste('files/snippets/', config$snippets, sep='')
 ```
 
 :::::: questions
@@ -29,6 +28,7 @@ $ cd ~
 $ mkdir hpc-test
 $ cd hpc-test
 ```
+
 
 ## Creating and Editing Text Files
 
@@ -175,40 +175,6 @@ $ ls
 newname.testfile
 ```
 
-::: callout
-# File extensions are arbitrary
-
-In the last example, we changed both a file's name and extension at the same
-time. On UNIX systems, file extensions (like `.txt`) are arbitrary. A file is
-a `.txt` file only because we say it is. Changing the name or extension of
-the file will *never* change a file's contents, so you are free to rename
-things as you wish. With that in mind, however, file extensions are a useful
-tool for keeping track of what type of data it contains. A `.txt` file
-typically contains text, for instance.
-
-:::
-
-**Copying** &mdash; What if we want to copy a file, instead of simply renaming
-or moving it? Use `cp` command (an abbreviated name for "copy"). This command
-has two different uses that work in the same way as `mv`:
-
-- Copy to same directory (copied file is renamed): `cp file newFilename`
-- Copy to other directory (copied file retains original name): `cp file directory`
-
-Let's try this out.
-
-```bash
-$ cp newname.testfile copy.testfile
-$ ls
-$ cp newname.testfile ..
-$ cd ..
-$ ls
-```
-```output
-newname.testfile copy.testfile
-files documents newname.testfile
-```
-
 ## Removing files
 
 We've begun to clutter up our workspace with all of the directories and files
@@ -277,7 +243,7 @@ external hard drives). Moral of the story: **be very careful** when using `rm -r
 
 Sometimes it's not practical to read an entire file with `cat`- the file might
 be way too large, take a long time to open, or maybe we want to only look at a
-certain part of the file. As an example, we are g`oing to look at a large and
+certain part of the file. As an example, we are going to look at a large and
 complex file type used in bioinformatics- a `.gtf` file. The GTF2 format is
 commonly used to describe the location of genetic features in a genome.
 
@@ -317,43 +283,44 @@ $ aria2c site.urlsite.baseurl/files/bash-lesson.tar.gz
 
 :::
 
+
 ::: solution
 
 # Install cURL
 
-  * macOS: `curl` is pre-installed on macOS. If you must have the latest
-    version you can `brew install` it, but only do so if the stock version
-    has failed you.
+- macOS: `curl` is pre-installed on macOS. If you must have the latest
+  version you can `brew install` it, but only do so if the stock version
+  has failed you.
 
-  * Windows: `curl` comes preinstalled for the Windows 10 command line. For
-    earlier Windows systems, you can download the executable
-    [directly](https://curl.haxx.se/windows/); run it in place.
-    `curl` comes preinstalled in [Git for
-    Windows](https://gitforwindows.org/) and [Windows Subsystem for
-    Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10). On
-    [Cygwin](https://www.cygwin.com/), run the setup program again and
-    select the `curl` package to install it.
+- Windows: `curl` comes preinstalled for the Windows 10 command line. For
+  earlier Windows systems, you can download the executable
+  [directly](https://curl.haxx.se/windows/); run it in place.
+  `curl` comes preinstalled in [Git for Windows](https://gitforwindows.org/) and [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10). On
+  [Cygwin](https://www.cygwin.com/), run the setup program again and
+  select the `curl` package to install it.
 
-  * Linux: `curl` is packaged for every major distribution. You can install
-    it through the usual means.
-     - Debian, Ubuntu, Mint: `sudo apt install curl`
-     - CentOS, Red Hat: `sudo yum install curl` or `zypper install curl`
-     - Fedora: `sudo dnf install curl`
+- Linux: `curl` is packaged for every major distribution. You can install
+  it through the usual means.
+    - Debian, Ubuntu, Mint: `sudo apt install curl`
+    - CentOS, Red Hat: `sudo yum install curl` or `zypper install curl`
+    - Fedora: `sudo dnf install curl`
+
 :::
-
 ::: solution
 # Install Aria2
 
- * macOS: `aria2c` is available through a homebrew. `brew install aria2`.
- * Windows: download the latest
-   [release](https://github.com/aria2/aria2/releases) and run `aria2c` in
-   place. If you're using the [Windows Subsystem for Linux](
-   https://docs.microsoft.com/en-us/windows/wsl/install-win10),
- * Linux: every major distribution has an `aria2` package. Install it by the
-   usual means.
-     - Debian, Ubuntu, Mint: `sudo apt install aria2`
-     - CentOS, Red Hat: `sudo yum install aria2` or `zypper install aria2`
-     - Fedora: `sudo dnf install aria2`
+- macOS: `aria2c` is available through a homebrew. `brew install aria2`.
+
+- Windows: download the latest [release](https://github.com/aria2/aria2/releases) and run `aria2c` in
+  place. If you're using the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
+
+- Linux: every major distribution has an `aria2` package. Install it by the
+  usual means.
+
+    - Debian, Ubuntu, Mint: `sudo apt install aria2`
+    - CentOS, Red Hat: `sudo yum install aria2` or `zypper install aria2`
+    - Fedora: `sudo dnf install aria2`
+
 :::
 
 You'll commonly encounter `.tar.gz` archives while working in UNIX. To extract
@@ -428,5 +395,3 @@ favourite? Why?
 - Use `rm old` to delete (remove) a file.
 - File extensions are entirely arbitrary on UNIX systems.
 ::::::
-
-
