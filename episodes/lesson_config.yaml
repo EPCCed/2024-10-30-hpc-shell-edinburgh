@@ -1,0 +1,21 @@
+---
+local:
+  prompt: "[user@laptop ~]$"
+  bash_shebang: "#!/bin/bash"
+
+snippets: EPCC_ARCHER2_slurm
+baseurl: "https://epcced.github.io/2023-12-13-noc-hpcshell"
+
+remote:
+  name: "ARCHER2"
+  host_id: "EPCC_ARCHER2"
+  login: "login.archer2.ac.uk"
+  host: "ln03"
+  node: "nid001053"
+  location: "EPCC, The University of Edinburgh"
+  homedir: "/home/ta114/ta114/"
+  user: "userid"
+  prompt: "userid@ln03:~>"
+  prompt_work: "userid@uan01:/work/ta114/ta114/userid>"
+  module_python3: "cray-python"
+  bash_shebang: "#!/bin/bash"

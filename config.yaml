@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
@@ -8,32 +9,32 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: "incubator"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: "Introduction to Using the Shell in a High-Performance Computing Context"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2023-11-17
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: "software, data, lesson, The Carpentries, HPC, EPCC"
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: "beta"
 
 # License of the lesson
-license: 'CC-BY 4.0'
+license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: "https://github.com/EPCCed/2023-06-28-uoe-hpcintro"
 
 # Default branch of your lesson
-branch: 'main'
+branch: "main"
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: "support@archer2.ac.uk"
 
 # Navigation ------------------------------------------------
 #
@@ -58,21 +59,26 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+  - 10-hpc-intro.Rmd
+  - 11-connecting.Rmd
+  - 13-navigation.Rmd
+  - 14-files.Rmd
+  - 15-wildcards-pipes.Rmd
+  - 16-scripts.Rmd
 
 # Information for Learners
-learners: 
+learners:
+  - setup.Rmd
+  - workshop-details.Rmd
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
-
+profiles:
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
 
