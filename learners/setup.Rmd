@@ -236,33 +236,10 @@ You should now be able to log into ARCHER2 by following the [login instructions 
 
 ### Using an existing ARCHER2 account
 
-If you wish to use an existing ARCHER2 account for the course, that is perfectly fine. The
-only differences from the specific course account are that you will not have access to the
-the node reservations for the course or the course account code. Instead, you can use your
-existing account code (the cost of the jobs is negligible as they are very short and small) and
-the ARCHER2 `short` QoS . When the course talks about setting the following options:
-
-```bash
---qos=`r config$sched$qos` --reservation=`r config$sched$reservation`
-```
-you should replace them with:
-
-```bash
---qos=short --reservation=`r config$sched$qos`
-```
-
-Similarly, when you are writing job submission scripts, you should replace:
-
-```bash
-#SBATCH --qos=standard
-#SBATCH --reservation=`r config$sched$reservation`
-```
-
-with
-
-```bash
-#SBATCH --qos=`r config$sched$qos`
-#SBATCH --reservation=`r config$sched$qos`
-```
+If you wish to use an existing ARCHER2 account for the course, that is perfectly
+fine. The only differences from the specific course account are that you will not
+have access to the course account code. Instead, you can use your existing
+account code (the cost of the jobs is negligible as they are very short and
+small).
 
 ::::::::::::::::::::::

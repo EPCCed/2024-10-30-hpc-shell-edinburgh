@@ -70,7 +70,6 @@ episodes:
 # Information for Learners
 learners:
   - setup.Rmd
-  - workshop-details.Rmd
 
 # Information for Instructors
 instructors:
