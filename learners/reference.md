@@ -9,10 +9,6 @@ title: 'Reference'
 [Linux Manual Pages](https://linux.die.net/man/) &mdash Linux manual pages in HTML format.
 Versions might differ to your local version
 
-
-<!-
 ## Glossary
 
-This is a placeholder file. Please add content here. 
-->
-
+HPC &mdash High Performance Computing.
