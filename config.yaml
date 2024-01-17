@@ -72,10 +72,10 @@ learners:
   - setup.Rmd
 
 # Information for Instructors
-#instructors:
+instructors:
 
 # Learner Profiles
-#profiles:
+profiles:
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
