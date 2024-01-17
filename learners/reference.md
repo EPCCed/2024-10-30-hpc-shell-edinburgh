@@ -10,8 +10,9 @@ title: 'Reference'
 Versions might differ to your local version
 
 
-
+<!-
 ## Glossary
 
 This is a placeholder file. Please add content here. 
+->
 

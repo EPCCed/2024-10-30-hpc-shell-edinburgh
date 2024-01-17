@@ -19,3 +19,7 @@ remote:
   prompt_work: "userid@uan01:/work/ta114/ta114/userid>"
   module_python3: "cray-python"
   bash_shebang: "#!/bin/bash"
+
+sched:
+  project: "ta133"
+
