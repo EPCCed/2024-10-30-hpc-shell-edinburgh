@@ -11,19 +11,15 @@ config <- yaml.load_file("lesson_config.yaml")
 
 To begin this lesson you must have completed the following
 
- * [Register](#registration) for the course
  * Participants must bring a laptop with a Mac, Linux, or Windows operating 
    system (not a tablet, Chromebook, etc.) that they can download and run 
    MobaXterm on. Alternatively, they should have a few specific software 
    packages installed (listed in the Setup section below). 
    They are also required to abide by the ARCHER2 Training Code of Conduct.
- * Complete the software/system [setup](#learners/setup) including the connection to ARCHER2 via [SSH](#setup-an-ssh-client).
+ * Complete the software/system [setup](#shell-setup) including the
+   connection to ARCHER2 via [SSH](#connect-to-archer2).
 
 :::
-
-## Registration
-
-Please use the registration form located at the [ARCHER2 website](https://www.archer2.ac.uk/training/#upcoming-training)</a> to sign up for the workshop.
 
 ## General Information
 
@@ -37,8 +33,8 @@ By the end of this lesson, students will know how to:
 
 ::: checklist
  * Identify problems an HPC system can help solve
- * Use the UNIX shell (also known as terminal or command line) to operate a computer,
-  connect to an HPC system, and write simple shell scripts.
- * Submit and manage jobs on an HPC system using a scheduler, transfer files, and use
-  software through environment modules.
+ * Use the UNIX shell (also known as terminal or command line) to operate a
+   computer, connect to an HPC system, and write simple shell scripts.
+ * Submit and manage jobs on an HPC system using a scheduler, transfer files,
+   and use software through environment modules.
 :::

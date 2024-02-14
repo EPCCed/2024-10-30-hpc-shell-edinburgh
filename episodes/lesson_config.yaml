@@ -13,13 +13,12 @@ remote:
   host: "ln03"
   node: "nid001053"
   location: "EPCC, The University of Edinburgh"
-  homedir: "/home/ta133/ta133/"
+  homedir: "/home/ta140/ta140/"
   user: "userid"
   prompt: "userid@ln03:~>"
-  prompt_work: "userid@uan01:/work/ta133/ta133/userid>"
+  prompt_work: "userid@uan01:/work/ta140/ta140/userid>"
   module_python3: "cray-python"
   bash_shebang: "#!/bin/bash"
 
 sched:
-  project: "ta133"
-
+  project: "ta140"

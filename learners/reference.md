@@ -12,5 +12,6 @@ Versions might differ to your local version
 
 ## Glossary
 
-HPC: High Performance Computing.
+HPC
+: High Performance Computing.
 

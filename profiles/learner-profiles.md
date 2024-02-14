@@ -47,7 +47,7 @@ Running the model on a laptop will take over a month!
 Rina, a genomics researcher, has been using small datasets of sequence data,
 but soon will be receiving a new type of sequencing data that is 10 times as
 large. It's already challenging to open the datasets on a computer —
-analyzing these larger datasets will probably crash it.
+analysing these larger datasets will probably crash it.
 
 ## Lucy Navier-Stokes
 
