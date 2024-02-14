@@ -28,7 +28,7 @@ life_cycle: "beta"
 license: "CC-BY 4.0"
 
 # Link to the source repository for this lesson
-source: "https://github.com/EPCCed/2024-01-18-hpc-shell-noc"
+source: "https://github.com/EPCCed/2024-02-22-hpc-shell-brunel"
 
 # Default branch of your lesson
 branch: "main"
