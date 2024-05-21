@@ -66,7 +66,7 @@ look in certain directories for scripts to run. To run anything else, we need
 to tell Bash exactly where to look. To run a script that we wrote ourselves, we
 need to specify the full path to the file, followed by the filename. We could
 do this one of two ways: either with our absolute path `
-/home/ta140/ta140/yourUserName/demo.sh`, or with the relative path
+/home/ta158/ta158/yourUserName/demo.sh`, or with the relative path
 `./demo.sh`.
 
 ```bash

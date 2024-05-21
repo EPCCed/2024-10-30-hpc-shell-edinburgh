@@ -58,7 +58,7 @@ stands for "print working directory"). ("Directory" is another word for
 "folder"). At any moment, our **current working directory** (where we are) is
 the directory that the computer assumes we want to run commands in unless we
 explicitly specify something else. Here, the computer's response is
-`/home/ta140/ta140/yourUsername`, which is your user's **home
+`/home/ta158/ta158/yourUsername`, which is your user's **home
 directory**. Note that the absolute location of your home directory may differ from
 system to system.
 
@@ -66,7 +66,7 @@ system to system.
 $ pwd
 ```
 ```output
-/home/ta140/ta140/yourUsername
+/home/ta158/ta158/yourUsername
 ```
 
 So, we know where we are. How do we look and see what's in our current
@@ -126,7 +126,7 @@ $ pwd
 ```
 
 What is the `~` character? When using the shell, `~` is a shortcut that
-represents `/home/ta140/ta140/yourUserName`.
+represents `/home/ta158/ta158/yourUserName`.
 
 Now that we know how to use `cd`, we can go anywhere. That's a lot of
 responsibility. What happens if we get "lost" and want to get back to where we
@@ -135,7 +135,7 @@ started?
 To go back to your home directory, the following three commands will work:
 
 ```bash
-$ cd /home/ta140/ta140/yourUserName
+$ cd /home/ta158/ta158/yourUserName
 $ cd ~
 $ cd
 ```
@@ -209,8 +209,8 @@ $ cd ..
 $ pwd
 ```
 ```output
-/home/ta140/ta140/yourUserName/documents
-/home/ta140/ta140/yourUserName
+/home/ta158/ta158/yourUserName/documents
+/home/ta158/ta158/yourUserName
 ```
 
 Many commands also have multiple behaviours that you can invoke with command
