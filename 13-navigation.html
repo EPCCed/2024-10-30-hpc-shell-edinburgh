@@ -275,7 +275,7 @@
         <h1>Moving around and looking at things</h1>
         <p>Last updated on 2024-05-21 |
         
-        <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/edit/main/episodes/13-navigation.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/EPCCed/2024-06-19-hpc-shampton/edit/main/episodes/13-navigation.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
         
         
@@ -355,7 +355,7 @@ commands.</li>
 <strong>current working directory</strong> (where we are) is the
 directory that the computer assumes we want to run commands in unless we
 explicitly specify something else. Here, the computer’s response is
-<code>/home/ta140/ta140/yourUsername</code>, which is your user’s
+<code>/home/ta158/ta158/yourUsername</code>, which is your user’s
 <strong>home directory</strong>. Note that the absolute location of your
 home directory may differ from system to system.</p>
 <div class="codewrapper sourceCode" id="cb4">
@@ -366,7 +366,7 @@ home directory may differ from system to system.</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>/home/ta140/ta140/yourUsername</code></pre>
+<pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUsername</code></pre>
 </div>
 <p>So, we know where we are. How do we look and see what’s in our
 current directory?</p>
@@ -398,7 +398,7 @@ you see?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>You would likely see something more like this:</p>
 <div class="codewrapper">
@@ -444,7 +444,7 @@ folder.</p>
 </div>
 <p>What is the <code>~</code> character? When using the shell,
 <code>~</code> is a shortcut that represents
-<code>/home/ta140/ta140/yourUserName</code>.</p>
+<code>/home/ta158/ta158/yourUserName</code>.</p>
 <p>Now that we know how to use <code>cd</code>, we can go anywhere.
 That’s a lot of responsibility. What happens if we get “lost” and want
 to get back to where we started?</p>
@@ -453,7 +453,7 @@ work:</p>
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> cd /home/ta140/ta140/yourUserName</span>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> cd /home/ta158/ta158/yourUserName</span>
 <span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="ex">$</span> cd ~</span>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="ex">$</span> cd</span></code></pre>
 </div>
@@ -548,8 +548,8 @@ key.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>/home/ta140/ta140/yourUserName/documents
-/home/ta140/ta140/yourUserName</code></pre>
+<pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUserName/documents
+/home/ta158/ta158/yourUserName</code></pre>
 </div>
 <p>Many commands also have multiple behaviours that you can invoke with
 command line ‘flags.’ What is a flag? It’s generally just your command
@@ -744,7 +744,7 @@ which is <code>/Users/amanda</code>?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>No: <code>.</code> stands for the current directory.</li>
 <li>No: <code>/</code> stands for the root directory.</li>
@@ -785,7 +785,7 @@ display?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>No: there <em>is</em> a directory <code>backup</code> in
 <code>/Users</code>.</li>
@@ -828,7 +828,7 @@ display things in reverse order, what command will display:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>No: <code>pwd</code> is not the name of a directory.</li>
 <li>Yes: <code>ls</code> without directory argument lists files and
@@ -860,7 +860,7 @@ nevertheless.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p>The <code>-l</code> arguments makes <code>ls</code> use a
 <strong>l</strong>ong listing format, showing not only the
@@ -895,7 +895,7 @@ long listing format to view timestamps.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6">Show me the solution</h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
 <div class="accordion-body">
 <p>The directories are listed alphabetical at each level, the
 files/directories in each directory are sorted by time of last
@@ -952,12 +952,12 @@ use like [gitbash][gitbash]
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-        <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/edit/main/episodes/13-navigation.Rmd" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/EPCCed/2024-06-19-hpc-shampton/edit/main/episodes/13-navigation.Rmd" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/EPCCed/2024-02-22-hpc-shell-brunel/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/EPCCed/2024-06-19-hpc-shampton/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/EPCCed/2024-06-19-hpc-shampton/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/EPCCed/2024-06-19-hpc-shampton/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -976,16 +976,16 @@ use like [gitbash][gitbash]
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/13-navigation.html",
+  "@id": "https://EPCCed.github.io/2024-06-19-hpc-shampton/13-navigation.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries, HPC, EPCC",
   "name": "Moving around and looking at things",
   "creativeWorkStatus": "active",
-  "url": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/13-navigation.html",
-  "identifier": "https://EPCCed.github.io/2024-02-22-hpc-shell-brunel/13-navigation.html",
-  "dateCreated": "2024-02-14",
+  "url": "https://EPCCed.github.io/2024-06-19-hpc-shampton/13-navigation.html",
+  "identifier": "https://EPCCed.github.io/2024-06-19-hpc-shampton/13-navigation.html",
+  "dateCreated": "2024-06-19",
   "dateModified": "2024-05-21",
   "datePublished": "2024-05-21"
 }
