@@ -614,6 +614,18 @@ account</li>
 the ARCHER2 system.</p>
 </div>
 <div class="section level3">
+<h3 id="configure-totp-passwords">Configure TOTP passwords<a class="anchor" aria-label="anchor" href="#configure-totp-passwords"></a></h3>
+<p>Archer2 now uses one time passwords (TOTP) for multi-factor
+authentication (MFA). One time passwords are a common security measure
+used by banking, cloud services and apps that create a changing time
+limited code to verify your identity beyond a password and username.</p>
+<p>To setup your MFA TOTP you will need an authenticator application on
+your phone or laptop. Follow the <a href="https://epcced.github.io/safe-docs/safe-for-users/#how-to-turn-on-mfa-on-your-machine-account" class="external-link">steps</a>
+at the SAFE documentation, ensuring you create the code for your
+<code>ta158</code> project account.</p>
+<p>You will only be prompted at login for your TOTP code once a day.</p>
+</div>
+<div class="section level3">
 <h3 id="log-into-archer2">Log into ARCHER2<a class="anchor" aria-label="anchor" href="#log-into-archer2"></a></h3>
 <p>You should now be able to log into ARCHER2 by following the <a href="https://docs.archer2.ac.uk/user-guide/connecting/#ssh-clients" class="external-link">login
 instructions in the ARCHER2 documentation</a>.</p>
@@ -687,8 +699,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-06-19-hpc-shampton/index.html",
   "identifier": "https://EPCCed.github.io/2024-06-19-hpc-shampton/index.html",
   "dateCreated": "2024-06-19",
-  "dateModified": "2024-05-21",
-  "datePublished": "2024-05-21"
+  "dateModified": "2024-05-22",
+  "datePublished": "2024-05-22"
 }
 
   </script><script>
