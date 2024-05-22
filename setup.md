@@ -227,6 +227,19 @@ Once you have generated your key pair, you need to add the public part to your A
 
 The public SSH key part will now be added to your login account on the ARCHER2 system.
 
+### Configure TOTP passwords
+
+Archer2 now uses one time passwords (TOTP) for multi-factor authentication (MFA). One time passwords are a
+common security measure used by banking, cloud services and apps that create a changing time limited code to
+verify your identity beyond a password and username.
+
+To setup your MFA TOTP you will need an authenticator application on your phone or laptop. Follow the 
+[steps](https://epcced.github.io/safe-docs/safe-for-users/#how-to-turn-on-mfa-on-your-machine-account)
+at the SAFE documentation, ensuring you create the code for your `ta158` project
+account.
+
+You will only be prompted at login for your TOTP code once a day.
+
 ### Log into ARCHER2
 
 You should now be able to log into ARCHER2 by following the [login instructions in the ARCHER2 documentation](https://docs.archer2.ac.uk/user-guide/connecting/#ssh-clients).
