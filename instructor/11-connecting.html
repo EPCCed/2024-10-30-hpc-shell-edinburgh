@@ -162,12 +162,23 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         2. Connecting to the remote HPC system
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#opening-a-terminal">Opening a Terminal</a></li>
+<li><a href="#creating-an-ssh-key">Creating an SSH key</a></li>
+<li><a href="#logging-onto-the-system">Logging onto the system</a></li>
+<li><a href="#telling-the-difference-between-the-local-terminal-and-the-remote-terminal">Telling the Difference between the Local Terminal and the Remote
+Terminal</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -303,9 +314,9 @@
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="opening-a-terminal">Opening a Terminal<a class="anchor" aria-label="anchor" href="#opening-a-terminal"></a></h1>
-<p>Connecting to an HPC system is most often done through a tool known
+<section id="opening-a-terminal"><h2 class="section-heading">Opening a Terminal<a class="anchor" aria-label="anchor" href="#opening-a-terminal"></a>
+</h2>
+<hr class="half-width"><p>Connecting to an HPC system is most often done through a tool known
 as “SSH” (Secure SHell) and usually SSH is run through a terminal. So,
 to begin using an HPC system we need to begin by opening a terminal.
 Different operating systems have different terminals, none of which are
@@ -379,9 +390,9 @@ free from <a href="https://gitforwindows.org/" class="external-link">here</a>.</
 remote computer via SSH. Instructions on installing it can be found <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10" class="external-link">here</a>.</p>
 </div>
 </div>
-<div class="section level2">
-<h2 id="creating-an-ssh-key">Creating an SSH key<a class="anchor" aria-label="anchor" href="#creating-an-ssh-key"></a></h2>
-<p>SSH keys are an alternative method for authentication to obtain
+</section><section id="creating-an-ssh-key"><h2 class="section-heading">Creating an SSH key<a class="anchor" aria-label="anchor" href="#creating-an-ssh-key"></a>
+</h2>
+<hr class="half-width"><p>SSH keys are an alternative method for authentication to obtain
 access to remote computing systems. They can also be used for
 authentication when transferring files or for accessing version control
 systems. In this section you will create a pair of SSH keys, a private
@@ -470,10 +481,9 @@ Secure Shell</a>.</p>
 <li>MobaKeyGen, see the MobaXterm <a href="https://mobaxterm.mobatek.net/documentation.html" class="external-link">documentation</a>
 </li>
 </ul></div>
-</div>
-<div class="section level2">
-<h2 id="logging-onto-the-system">Logging onto the system<a class="anchor" aria-label="anchor" href="#logging-onto-the-system"></a></h2>
-<p>With all of this in mind, let’s connect to a remote HPC system. In
+</section><section id="logging-onto-the-system"><h2 class="section-heading">Logging onto the system<a class="anchor" aria-label="anchor" href="#logging-onto-the-system"></a>
+</h2>
+<hr class="half-width"><p>With all of this in mind, let’s connect to a remote HPC system. In
 this workshop, we will connect to ARCHER2 — an HPC system located at the
 University of Edinburgh. Although it’s unlikely that every system will
 be exactly like ARCHER2, it’s a very good example of what you can expect
@@ -541,11 +551,10 @@ further.)</p>
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="ex">userid@ln03:~</span><span class="op">&gt;</span></span></code></pre>
 </div>
-</div>
-<div class="section level2">
-<h2 id="telling-the-difference-between-the-local-terminal-and-the-remote-terminal">Telling the Difference between the Local Terminal and the Remote
-Terminal<a class="anchor" aria-label="anchor" href="#telling-the-difference-between-the-local-terminal-and-the-remote-terminal"></a></h2>
-<p>You may have noticed that the prompt changed when you logged into the
+</section><section id="telling-the-difference-between-the-local-terminal-and-the-remote-terminal"><h2 class="section-heading">Telling the Difference between the Local Terminal and the Remote
+Terminal<a class="anchor" aria-label="anchor" href="#telling-the-difference-between-the-local-terminal-and-the-remote-terminal"></a>
+</h2>
+<hr class="half-width"><p>You may have noticed that the prompt changed when you logged into the
 remote system using the terminal (if you logged in using PuTTY this will
 not apply because it does not offer a local terminal). This change is
 important because it makes it clear on which system the commands you
@@ -626,12 +635,7 @@ any links that you are not going to use.
 
 use like [gitbash][gitbash]
  -->
-</div>
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/10-hpc-intro.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/13-navigation.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>

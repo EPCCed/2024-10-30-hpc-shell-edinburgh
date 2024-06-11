@@ -199,7 +199,8 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#redirecting-output">Redirecting output</a></li>
+        <ul><li><a href="#word-counts-and-wildcards-globbing">Word counts and wildcards (globbing)</a></li>
+<li><a href="#redirecting-output">Redirecting output</a></li>
 <li><a href="#chaining-commands-together">Chaining commands together</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -364,9 +365,11 @@ SRR307024_2.fastq                            SRR307029_2.fastq
 SRR307025_1.fastq                            SRR307030_1.fastq
 SRR307025_2.fastq                            SRR307030_2.fastq</code></pre>
 </div>
-<p>Now we have a whole bunch of example files in our directory. For this
+<section id="word-counts-and-wildcards-globbing"><h2 class="section-heading">Word counts and wildcards (globbing)<a class="anchor" aria-label="anchor" href="#word-counts-and-wildcards-globbing"></a>
+</h2>
+<hr class="half-width"><p>Now we have a whole bunch of example files in our directory. For this
 example we are going to learn a new command that tells us how long a
-file is: <code>wc</code>. <code>wc-l file</code> tells us the length of
+file is: <code>wc</code>. <code>wc -l file</code> tells us the length of
 a file in lines.</p>
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -460,7 +463,7 @@ run <code>wc -l</code> on every file with “fb” in it?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -492,7 +495,7 @@ folder called “fastq” and move all of our .fastq files there in one
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -504,7 +507,7 @@ folder called “fastq” and move all of our .fastq files there in one
 </div>
 </div>
 </div>
-<section id="redirecting-output"><h2 class="section-heading">Redirecting output<a class="anchor" aria-label="anchor" href="#redirecting-output"></a>
+</section><section id="redirecting-output"><h2 class="section-heading">Redirecting output<a class="anchor" aria-label="anchor" href="#redirecting-output"></a>
 </h2>
 <hr class="half-width"><p>Each of the commands we’ve used so far does only a very small amount
 of work. However, we can chain these small UNIX commands together to
@@ -703,7 +706,7 @@ reading the number of lines from that file.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb26">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -744,7 +747,7 @@ decompressing the file itself)?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>

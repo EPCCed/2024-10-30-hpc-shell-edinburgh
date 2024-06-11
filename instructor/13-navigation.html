@@ -181,7 +181,13 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#where-to-go-for-help">Where to go for help?</a></li>
+        <ul><li><a href="#first-commands">First commands</a></li>
+<li><a href="#list-directory-contents">List directory contents</a></li>
+<li><a href="#making-directories">Making directories</a></li>
+<li><a href="#the-tilde">The tilde ~</a></li>
+<li><a href="#navigation-shortcuts">Navigation shortcuts</a></li>
+<li><a href="#command-flags-and-options">Command flags and options</a></li>
+<li><a href="#where-to-go-for-help">Where to go for help?</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -315,7 +321,9 @@ advantages.</li>
 </div>
 </div>
 </div>
-<p>At this point in the lesson, we’ve just logged into the system.
+<section id="first-commands"><h2 class="section-heading">First commands<a class="anchor" aria-label="anchor" href="#first-commands"></a>
+</h2>
+<hr class="half-width"><p>At this point in the lesson, we’ve just logged into the system.
 Nothing has happened yet, and we’re not going to be able to do anything
 until we learn a few basic commands. By the end of this lesson, you will
 know how to “move around” the system and look at what’s there.</p>
@@ -370,7 +378,9 @@ home directory may differ from system to system.</p>
 </h3>
 <pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUsername</code></pre>
 </div>
-<p>So, we know where we are. How do we look and see what’s in our
+</section><section id="list-directory-contents"><h2 class="section-heading">List directory contents<a class="anchor" aria-label="anchor" href="#list-directory-contents"></a>
+</h2>
+<hr class="half-width"><p>So, we know where we are. How do we look and see what’s in our
 current directory?</p>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -416,7 +426,9 @@ you know what system you are issuing commands on when in the shell.</p>
 </div>
 </div>
 </div>
-<p>If nothing shows up when you run <code>ls</code>, it means that
+</section><section id="making-directories"><h2 class="section-heading">Making directories<a class="anchor" aria-label="anchor" href="#making-directories"></a>
+</h2>
+<hr class="half-width"><p>If nothing shows up when you run <code>ls</code>, it means that
 nothing’s there. Let’s make a directory for us to play with.</p>
 <p><code>mkdir &lt;new directory name&gt;</code> makes a new directory
 with that name in your current location. Notice that this command
@@ -444,7 +456,9 @@ folder.</p>
 </h3>
 <pre class="output" tabindex="0"><code>~/documents</code></pre>
 </div>
-<p>What is the <code>~</code> character? When using the shell,
+</section><section id="the-tilde"><h2 class="section-heading">The tilde ~<a class="anchor" aria-label="anchor" href="#the-tilde"></a>
+</h2>
+<hr class="half-width"><p>What is the <code>~</code> character? When using the shell,
 <code>~</code> is a shortcut that represents
 <code>/home/ta158/ta158/yourUserName</code>.</p>
 <p>Now that we know how to use <code>cd</code>, we can go anywhere.
@@ -529,7 +543,9 @@ end of your job.</li>
 </ul></div>
 </div>
 </div>
-<p>There are several other useful shortcuts you should be aware of.</p>
+</section><section id="navigation-shortcuts"><h2 class="section-heading">Navigation shortcuts<a class="anchor" aria-label="anchor" href="#navigation-shortcuts"></a>
+</h2>
+<hr class="half-width"><p>There are several other useful shortcuts you should be aware of.</p>
 <ul><li>
 <code>.</code> represents your current directory</li>
 <li>
@@ -553,7 +569,9 @@ key.</li>
 <pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUserName/documents
 /home/ta158/ta158/yourUserName</code></pre>
 </div>
-<p>Many commands also have multiple behaviours that you can invoke with
+</section><section id="command-flags-and-options"><h2 class="section-heading">Command flags and options<a class="anchor" aria-label="anchor" href="#command-flags-and-options"></a>
+</h2>
+<hr class="half-width"><p>Many commands also have multiple behaviours that you can invoke with
 command line ‘flags.’ What is a flag? It’s generally just your command
 followed by a ‘-’ and the name of the flag (sometimes it’s ‘–’ followed
 by the name of the flag). You follow the flag(s) with any additional
@@ -637,7 +655,7 @@ we’re in would look something like:</p>
 <pre class="output" tabindex="0"><code>drwxr-sr-x 2 yourUsername tc001 4096 Nov 28 09:58 .
 drwx--S--- 5 yourUsername tc001 4096 Nov 28 09:58 ..</code></pre>
 </div>
-<section id="where-to-go-for-help"><h2 class="section-heading">Where to go for help?<a class="anchor" aria-label="anchor" href="#where-to-go-for-help"></a>
+</section><section id="where-to-go-for-help"><h2 class="section-heading">Where to go for help?<a class="anchor" aria-label="anchor" href="#where-to-go-for-help"></a>
 </h2>
 <hr class="half-width"><p>How did I know about the <code>-l</code> and <code>-a</code> options?
 Is there a manual we can look at for help when we need help? There is a
