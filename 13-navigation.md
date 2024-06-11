@@ -18,6 +18,8 @@ exercises: 5
   - Demonstrate the use of tab completion, and explain its advantages.
 ::::::
 
+## First commands
+
 At this point in the lesson, we've just logged into the system. Nothing has
 happened yet, and we're not going to be able to do anything until we learn a
 few basic commands. By the end of this lesson, you will know how to "move
@@ -69,6 +71,8 @@ $ pwd
 /home/ta158/ta158/yourUsername
 ```
 
+## List directory contents
+
 So, we know where we are. How do we look and see what's in our current
 directory?
 ```bash
@@ -99,6 +103,8 @@ you are issuing commands on when in the shell.
 
 :::
 
+## Making directories
+
 If nothing shows up when you run `ls`, it means that nothing's there. Let's
 make a directory for us to play with.
 
@@ -124,6 +130,8 @@ $ pwd
 ```output
 ~/documents
 ```
+
+## The tilde ~
 
 What is the `~` character? When using the shell, `~` is a shortcut that
 represents `/home/ta158/ta158/yourUserName`.
@@ -193,6 +201,8 @@ File storage locations:
  against your job's memory usage and be deleted at the end of your job.
 :::
 
+## Navigation shortcuts
+
 There are several other useful shortcuts you should be aware of.
 
 - `.` represents your current directory
@@ -212,6 +222,8 @@ $ pwd
 /home/ta158/ta158/yourUserName/documents
 /home/ta158/ta158/yourUserName
 ```
+
+## Command flags and options
 
 Many commands also have multiple behaviours that you can invoke with command
 line 'flags.' What is a flag? It's generally just your command followed by a

@@ -16,7 +16,7 @@ exercises: 15
   - Connect to a remote HPC system.
 ::::::
 
-# Opening a Terminal
+## Opening a Terminal
 
 Connecting to an HPC system is most often done through a tool known as "SSH"
 (Secure SHell) and usually SSH is run through a terminal. So, to begin using an
@@ -297,5 +297,3 @@ ssh yourUsername@remote.computer.address
 ssh -i ~/.ssh/key_for_remote_computer yourUsername@remote.computer.address
 ```
 ::::::
-
-

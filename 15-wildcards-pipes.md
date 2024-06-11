@@ -64,8 +64,10 @@ SRR307025_1.fastq                            SRR307030_1.fastq
 SRR307025_2.fastq                            SRR307030_2.fastq
 ```
 
+## Word counts and wildcards (globbing)
+
 Now we have a whole bunch of example files in our directory. For this example
-we are going to learn a new command that tells us how long a file is: `wc`. `wc-l file` 
+we are going to learn a new command that tells us how long a file is: `wc`. `wc -l file` 
 tells us the length of a file in lines.
 
 ```bash

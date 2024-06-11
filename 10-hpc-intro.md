@@ -16,10 +16,10 @@ exercises: 5
   - Identify how an HPC system could benefit you.
 ::::::
 
-# Why Use These Computers?
+## Why Use These Computers?
 
 ::: challenge
-## What do you need?
+### What do you need?
 
 Talk to your neighbour about your research. How does computing help you do
 your research? How could more computing help you do more or better research?
