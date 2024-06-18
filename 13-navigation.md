@@ -37,7 +37,7 @@ information before the prompt. When typing commands, either from these lessons
 or from other sources, do not type the prompt, only the commands that follow
 it.
 
-Type the command `whoami`, then press the Enter key (sometimes marked Return)
+Type the command `whoami`, then press the <kbd>Enter</kbd> key (sometimes marked Return)
 to send the command to the shell. The command's output is the ID of the current
 user, i.e., it shows us who the shell thinks we are:
 
@@ -208,7 +208,7 @@ There are several other useful shortcuts you should be aware of.
 - `.` represents your current directory
 - `..` represents the "parent" directory of your current location
 - While typing nearly *anything*, you can have bash try to autocomplete what
-  you are typing by pressing the `tab` key.
+  you are typing by pressing the <kbd>tab</kbd> key.
 
 Let's try these out now:
 

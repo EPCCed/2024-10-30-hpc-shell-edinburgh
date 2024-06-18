@@ -45,7 +45,7 @@ directions you need.
 Macs have had a terminal built in since the first version of OS X since it is
 built on a UNIX-like operating system, leveraging many parts from BSD (Berkeley
 Software Distribution). The terminal can be quickly opened through the use of
-the Searchlight tool. Hold down the command key and press the spacebar. In the
+the Searchlight tool. Hold down the <kbd>Command</kbd> key and press <kbd>Space</kbd>. In the
 search bar that shows up type "terminal", choose the terminal app from the list
 of results (it will look like a tiny, black computer screen) and you will be
 presented with a terminal window. Alternatively, you can find Terminal under
@@ -97,7 +97,7 @@ via SSH. Instructions on installing it can be found
 
 :::
 
-## Creating an SSH key
+## Creating a SSH key
 
 SSH keys are an alternative method for authentication to obtain access to
 remote computing systems. They can also be used for authentication when
