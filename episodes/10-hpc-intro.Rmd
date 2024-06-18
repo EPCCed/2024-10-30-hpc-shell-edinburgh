@@ -107,7 +107,7 @@ text-based interfaces were the way to do this. A typing-based interface is
 often called a **command-line interface**, or CLI, to distinguish it from a
 **graphical user interface**, or GUI, which most people now use. The heart of a
 CLI is a **read-evaluate-print loop**, or REPL: when the user types a command
-and then presses the Enter (or Return) key, the computer reads it, executes it,
+and then presses the <kbd>Enter</kbd> key, the computer reads it, executes it,
 and prints its output. The user then types another command, and so on until the
 user logs off.
 
@@ -123,7 +123,7 @@ to reap the benefits described above.
 The only way to use these types of resources is by learning to use the command
 line. This introduction to HPC systems has two parts:
 
-* We will learn to use the UNIX command line (also known as Bash).
+* We will learn to use the UNIX command line or shell (commonly just called Bash - although this is just one implementation).
 * We will use our new Bash skills to connect to and operate a high-performance
   computing supercomputer.
 
