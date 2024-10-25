@@ -15,7 +15,7 @@ carpentry: "incubator"
 title: "Introduction to Using the Shell in a High-Performance Computing Context"
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2024-06-19
+created: 2024-10-30
 
 # Comma-separated list of keywords for the lesson
 keywords: "software, data, lesson, The Carpentries, HPC, EPCC"
