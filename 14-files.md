@@ -249,7 +249,7 @@ Let's grab and unpack a set of demo files for use later. To do this, we'll use
 a link).
 
 ```bash
-$ wget https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz
+$ wget https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz
 ```
 
 ::: callout
@@ -266,7 +266,7 @@ programming interactions with remote resources over a wide variety of network
 protocols. If you have `curl` but not `wget`, then try this command instead:
 
 ```bash
-$ curl -O https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz
+$ curl -O https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz
 ```
 
 For very large downloads, you might consider using
@@ -275,7 +275,7 @@ file from multiple mirrors. You have to install it separately, but if you
 have it, try this to get it faster than your neighbors:
 
 ```bash
-$ aria2c https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz
+$ aria2c https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz
 ```
 
 :::

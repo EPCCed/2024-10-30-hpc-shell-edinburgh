@@ -28,11 +28,11 @@ files used in the next few sections:
  
 **Using wget**: 
 ```bash
-wget https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz
+wget https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz
 ```
 
 **Using a web browser**:
-https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz
+https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz
 :::
 
 Now that we know some of the basic UNIX commands, we are going to explore some
