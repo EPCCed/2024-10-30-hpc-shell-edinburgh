@@ -1030,7 +1030,7 @@ commands.</li>
 <strong>current working directory</strong> (where we are) is the
 directory that the computer assumes we want to run commands in unless we
 explicitly specify something else. Here, the computer’s response is
-<code>/home/ta158/ta158/yourUsername</code>, which is your user’s
+<code>/home/ta180/ta180/yourUsername</code>, which is your user’s
 <strong>home directory</strong>. Note that the absolute location of your
 home directory may differ from system to system.</p>
 <div class="codewrapper sourceCode" id="cb4">
@@ -1041,7 +1041,7 @@ home directory may differ from system to system.</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUsername</code></pre>
+<pre class="output" tabindex="0"><code>/home/ta180/ta180/yourUsername</code></pre>
 </div>
 </section><section><h2 class="section-heading" id="list-directory-contents">List directory contents<a class="anchor" aria-label="anchor" href="#list-directory-contents"></a>
 </h2>
@@ -1126,7 +1126,7 @@ folder.</p>
 <hr class="half-width">
 <p>What is the <code>~</code> character? When using the shell,
 <code>~</code> is a shortcut that represents
-<code>/home/ta158/ta158/yourUserName</code>.</p>
+<code>/home/ta180/ta180/yourUserName</code>.</p>
 <p>Now that we know how to use <code>cd</code>, we can go anywhere.
 That’s a lot of responsibility. What happens if we get “lost” and want
 to get back to where we started?</p>
@@ -1135,7 +1135,7 @@ work:</p>
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> cd /home/ta158/ta158/yourUserName</span>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">$</span> cd /home/ta180/ta180/yourUserName</span>
 <span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="ex">$</span> cd ~</span>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="ex">$</span> cd</span></code></pre>
 </div>
@@ -1236,8 +1236,8 @@ key.</li>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>/home/ta158/ta158/yourUserName/documents
-/home/ta158/ta158/yourUserName</code></pre>
+<pre class="output" tabindex="0"><code>/home/ta180/ta180/yourUserName/documents
+/home/ta180/ta180/yourUserName</code></pre>
 </div>
 </section><section><h2 class="section-heading" id="command-flags-and-options">Command flags and options<a class="anchor" aria-label="anchor" href="#command-flags-and-options"></a>
 </h2>
@@ -1948,7 +1948,7 @@ we’ll use <a href="https://www.gnu.org/software/wget/" class="external-link"><
 <div class="codewrapper sourceCode" id="cb19">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> wget https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="ex">$</span> wget https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz</span></code></pre>
 </div>
 <div id="problems-with-wget" class="callout">
 <div class="callout-square">
@@ -1968,7 +1968,7 @@ try this command instead:</p>
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="ex">$</span> curl <span class="at">-O</span> https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="ex">$</span> curl <span class="at">-O</span> https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz</span></code></pre>
 </div>
 <p>For very large downloads, you might consider using <a href="https://aria2.github.io/" class="external-link">Aria2</a>, which has support for
 downloading the same file from multiple mirrors. You have to install it
@@ -1977,7 +1977,7 @@ neighbors:</p>
 <div class="codewrapper sourceCode" id="cb21">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="ex">$</span> aria2c https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="ex">$</span> aria2c https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz</span></code></pre>
 </div>
 </div>
 </div>
@@ -2222,9 +2222,9 @@ example files used in the next few sections:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">wget</span> https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">wget</span> https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz</span></code></pre>
 </div>
-<p><strong>Using a web browser</strong>: <a href="https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz" class="external-link uri">https://epcced.github.io/2024-06-19-hpc-shell-shampton/files/bash-lesson.tar.gz</a></p>
+<p><strong>Using a web browser</strong>: <a href="https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz" class="external-link uri">https://epcced.github.io/2024-10-30-hpc-shell-edinburgh/files/bash-lesson.tar.gz</a></p>
 </div>
 </div>
 </div>
@@ -2358,7 +2358,7 @@ run <code>wc -l</code> on every file with “fb” in it?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2389,7 +2389,7 @@ folder called “fastq” and move all of our .fastq files there in one
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2605,7 +2605,7 @@ reading the number of lines from that file.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb26">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2645,7 +2645,7 @@ decompressing the file itself)?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb28">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2770,7 +2770,7 @@ anything else, we need to tell Bash exactly where to look. To run a
 script that we wrote ourselves, we need to specify the full path to the
 file, followed by the filename. We could do this one of two ways: either
 with our absolute path
-<code>/home/ta158/ta158/yourUserName/demo.sh</code>, or with the
+<code>/home/ta180/ta180/yourUserName/demo.sh</code>, or with the
 relative path <code>./demo.sh</code>.</p>
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
