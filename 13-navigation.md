@@ -117,7 +117,7 @@ the directory you wish to create.
 $ mkdir documents
 ```
 
-Let's us `ls` again. What do we see?
+Let's use `ls` again. What do we see?
 
 Our folder is there, awesome. What if we wanted to go inside it and do stuff
 there? We will use the `cd` (change directory) command to move around. Let's
@@ -186,7 +186,7 @@ File storage locations:
  typically faster to use than your home directory or network filesystem, but
  is not usually backed up, and should not be used for long term storage.
  * **Work file system** - As an alternative to (or sometimes as well as)
- Scratch space, some HPC systems offer fast file system access as a work
+ scratch space, some HPC systems offer fast file system access as a work
  file system. Typically, this will have higher performance than your home
  directory or network file system and may not be backed up. It differs from
  scratch space in that files in a work file system are not automatically
@@ -430,7 +430,7 @@ will `ls -F ../backup` display?
 
 Assuming a directory structure as in the above Figure (File System for
 Challenge Questions), if `pwd` displays `/Users/backup`, and `-r` tells `ls`
-to display things in reverse order, what command will display:
+to display things in reverse order, which command will display:
 
 ~~~output
 pnas_sub/ pnas_final/ original/
